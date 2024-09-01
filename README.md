@@ -20,9 +20,16 @@ Pomocí ADB jsem stáhl celou 8 GB paměť, upravil a nahrál zpět do Tigerboxu
 3. Stiskni tlačítko HOME pro zapnutí Tigerboxu.
 4. Po 10 sekundách pusť RESET.
 5. Čekej, až naběhne recovery mod.
-6. Zadej příkaz ```adb push mmcblk0.img /dev/block/mmcblk0```.
+6. Zadej příkaz 
+```
+adb push mmcblk0.img /dev/block/mmcblk0
+```
+
 7. Nyní budeš dlouho čekat, než se přenos dokončí. Může to trvat i hodinu.
-8. Zadej příkaz ```adb reboot```.
+8. Zadej příkaz 
+```
+adb reboot
+```
 9. Hotovo. Nyní má tvůj Tigerbox obyčejný launcher a práva root včetně funkčního adb přístupu pro ladění pomocí USB-C konektoru.
 
 ## Co dál? Jaká je další výzva? Na čem pracuju?
@@ -55,9 +62,15 @@ Using ADB, I downloaded the entire 8 GB memory, modified it, and uploaded it bac
 3. Press the HOME button to turn on the Tigerbox.
 4. After 10 seconds, release the RESET button.
 5. Wait for the recovery mode to start.
-6. Enter the command ```adb push mmcblk0.img /dev/block/mmcblk0```.
+6. Enter the command 
+```
+adb push mmcblk0.img /dev/block/mmcblk0
+```
 7. Now, wait a long time for the transfer to complete. It can take up to an hour.
-8. Enter the command ```adb reboot```.
+8. Enter the command 
+```
+adb reboot
+```
 9. Done. Your Tigerbox now has a standard launcher and root access, including functional ADB access for debugging via the USB-C connector.
 
 ## What's next? What is the next challenge? What am I working on?
