@@ -2,7 +2,7 @@
 Story box as Android tablet - reverzní inženýrství
 
 Nedávno jsem na outletovém eshopu zakoupil dětskou hudební krabičku Tigerbox Touch. Ovládání, manuál a software byly v němčině. Náš rodný jazyk je čeština a nikdo v naší rodině se německy neučí. Cílem projektu je tedy přizpůsobit hardware a software tak, aby mohl sloužit všem a bez potřeby oficiálního rozhraní v němčině.
-![reset](https://github.com/soptikopava/tigerboox-touch/blob/main/pics/1725210316320.jpg)
+![tigerbox touch](https://github.com/soptikopava/tigerboox-touch/blob/main/pics/1725210316353.jpg)
 ## Hardware
 - Android verze 5.1
 - Dotykový displej
@@ -19,9 +19,10 @@ Pomocí ADB jsem stáhl celou 8 GB paměť, upravil a nahrál zpět do Tigerboxu
 2. Stiskni a drž špendlíkem tlačítko RESET vedle USB-C konektoru.
 3. Stiskni tlačítko HOME pro zapnutí Tigerboxu.
 4. Po 10 sekundách pusť RESET.
-![reset](https://github.com/soptikopava/tigerboox-touch/blob/main/pics/1725210316320.jpg)
+![reset](https://github.com/soptikopava/tigerboox-touch/blob/main/pics/1725210316306.jpg)
 5. Čekej, až naběhne recovery mod.
-6. Zadej příkaz 
+![recovery](https://github.com/soptikopava/tigerboox-touch/blob/main/pics/1725210496431.jpg)
+7. Zadej příkaz 
 ```
 adb push mmcblk0.img /dev/block/mmcblk0
 ```
@@ -32,6 +33,7 @@ adb push mmcblk0.img /dev/block/mmcblk0
 adb reboot
 ```
 9. Hotovo. Nyní má tvůj Tigerbox obyčejný launcher a práva root včetně funkčního adb přístupu pro ladění pomocí USB-C konektoru.
+![reset](https://github.com/soptikopava/tigerboox-touch/blob/main/pics/1725210316320.jpg)
 
 ## Co dál? Jaká je další výzva? Na čem pracuju?
 Tigerbox má procesorový čip RK3218 a 8 GB MMC. Prvním úkolem je sestavit vlastní firmware jako soubor IMG nebo BIN, kterým lze flashnout čistý Android. K tomu potřebujeme vytvořit bootovací soubor. Pro RK3128 je jasná sekvence:
