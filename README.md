@@ -2,7 +2,7 @@
 Story box as Android tablet - reverzní inženýrství
 
 Nedávno jsem na outletovém eshopu zakoupil dětskou hudební krabičku Tigerbox Touch. Ovládání, manuál a software byly v němčině. Náš rodný jazyk je čeština a nikdo v naší rodině se německy neučí. Cílem projektu je tedy přizpůsobit hardware a software tak, aby mohl sloužit všem a bez potřeby oficiálního rozhraní v němčině.
-
+![reset](https://github.com/soptikopava/tigerboox-touch/blob/main/pics/1725210316320.jpg)
 ## Hardware
 - Android verze 5.1
 - Dotykový displej
@@ -19,6 +19,7 @@ Pomocí ADB jsem stáhl celou 8 GB paměť, upravil a nahrál zpět do Tigerboxu
 2. Stiskni a drž špendlíkem tlačítko RESET vedle USB-C konektoru.
 3. Stiskni tlačítko HOME pro zapnutí Tigerboxu.
 4. Po 10 sekundách pusť RESET.
+![reset](https://github.com/soptikopava/tigerboox-touch/blob/main/pics/1725210316320.jpg)
 5. Čekej, až naběhne recovery mod.
 6. Zadej příkaz 
 ```
